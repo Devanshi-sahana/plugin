@@ -1,0 +1,180 @@
+.flightCard {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* width: 100%; */
+  margin-top: 10px;
+  max-width: 50vh;
+}
+
+.flightDetails {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.airline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.airline img {
+  width: 50px;
+  height: auto;
+}
+
+.route {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 14px;
+  color: #777;
+}
+
+.third {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.third > div {
+  flex: 1;
+  text-align: center;
+}
+
+.a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.depature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.departureTime {
+  font-size: 1.2rem !important;
+  font-weight: 600;
+}
+.departureArpt {
+  font-size: 0.8rem !important;
+}
+
+.b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: x-small;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+}
+
+.flightPic {
+  display: flex;
+  justify-content: center;
+  rotate: 90deg;
+}
+.stops {
+  color: #eb7244;
+  font-weight: 900;
+}
+
+.stopsHover:hover {
+  color: #e64a19;
+  cursor: pointer;
+}
+
+.airlineCode {
+  font-size: x-small;
+}
+
+.last {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.fare {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.bookNow {
+  display: flex;
+  justify-content: center;
+}
+
+.bookNow button {
+  background-color: #eb7224;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.bookNow button:hover {
+  background-color: #e64a19;
+}
+
+.mutedLine {
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.fareText {
+  color: #777e90;
+  font-size: small;
+}
+.amount {
+  font-size: 400;
+  font-weight: bolder;
+}
+
+.showMore {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.showMore button {
+  padding: 10px 20px;
+  background-color: #fec300;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.showMore button:hover {
+  background-color: #8dc7de;
+}
